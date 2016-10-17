@@ -1,30 +1,29 @@
-﻿SITE WEB
+SITE WEB
 [
 
-Etat de la batterie
+(option, à revoir)Etat de la batterie
 
 Profil du patient:
 + Ses ordonnances , et traitement en cours
-+ Ses allergies
-+ Ses rdv passés et prevus
++ Ses informations : nom, prénom, age, sex, allergies, num, mail, num des proches
++ Ses rdv passés et prévus
++ Historique du traitement
 
 Parametrage des alertes:
 {
-Alerter quand le pilulier est vide le lendemain ou le surlendemain... etc
-Alerter quand la prise n'a pas été respectée
-Alerter quand la batterie du pilulier est proche du seuil d'extinction ?
++ Alerter quand le pilulier est vide le lendemain ou le surlendemain... etc
++ Alerter quand la prise n'a pas été respectée (SMS/Mail au patient / SMS/Mail à la famille du patient) 
+- Alerter quand la batterie du pilulier est proche du seuil d'extinction ?(A voir)
++ Alerte rappel du rdv avec le médecin.
 }
 
 
 Parametrage du traitement:
 {
-Fréquence de la prise du traitement.
-Insertion du nom des médicaments. (Doliprane ainsi que la posologie 2x par jour ...)
-RDV avec le médecin ?
++ Fréquence de la prise du traitement.
++ Insertion du nom des médicaments. (Doliprane ainsi que la posologie 2x par jour ...)
++ RDV avec le médecin ?
 }
 
-{
-Historique du traitement
-}
 
 ]
