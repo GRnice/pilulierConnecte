@@ -1,0 +1,4 @@
+C:\Users\Remy\Documents\SharpDevelop Projects\API_MAIL\API_MAIL\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Remy\Documents\SharpDevelop Projects\API_MAIL\API_MAIL\bin\Release\API_MAIL.dll
+C:\Users\Remy\Documents\SharpDevelop Projects\API_MAIL\API_MAIL\bin\Release\Beans.dll
+C:\Users\Remy\Documents\SharpDevelop Projects\API_MAIL\API_MAIL\obj\x86\Release\API_MAIL.dll

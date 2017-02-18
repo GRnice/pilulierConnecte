@@ -1,0 +1,54 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D225772D-F600-4437-8CF8-49ECC9D8E029}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PilulierFinal</RootNamespace>
+    <AssemblyName>PilulierFinal</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="API_MAIL, Version=1.0.6239.31100, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="API_MAIL, Version=1.0.6239.39069, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="BasicBeans, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Beans" />
+    <Reference Include="Calendar2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="PilulierBorrigo.UPnP2Bean">
+      <HintPath>..\..\..\WComp.NET\Beans\PilulierBorrigo.UPnP2Bean.dll</HintPath>
+    </Reference>
+    <Reference Include="pilulierConnecteV12.UPnP2Bean, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="PilulierFinal1302.UPnP2Bean, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Sample_Embedded_Device.UPnP2Bean, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="traitement_v3_API">
+      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\SharpDevelop\3.0\Beans\traitement_v3_API.dll</HintPath>
+    </Reference>
+    <Reference Include="WebServices, Version=3.2.1.1, Culture=neutral, PublicKeyToken=null" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Beans" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Container1.cs" />
+    <Compile Include="IMyClassAdapter.cs" />
+  </ItemGroup>
+</Project>

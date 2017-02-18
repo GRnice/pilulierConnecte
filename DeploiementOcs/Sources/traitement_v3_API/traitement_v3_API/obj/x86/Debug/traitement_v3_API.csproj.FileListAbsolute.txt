@@ -1,0 +1,6 @@
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\bin\Debug\traitement_v3_API.dll
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\bin\Debug\traitement_v3_API.pdb
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\bin\Debug\Beans.dll
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\obj\x86\Debug\traitement_v3_API.dll
+C:\Users\Remy\Documents\SharpDevelop Projects\traitement_v3_API\traitement_v3_API\obj\x86\Debug\traitement_v3_API.pdb
